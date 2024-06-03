@@ -1,0 +1,11 @@
+server:
+  servlet:
+    context-path: /largeModel
+  port: 8090
+  tomcat:
+    max-http-form-post-size: 10MB
+
+modelScope_api:
+  api_key: sk-7b923863de2f46a29cbb5186ed910a1d    #api_key
+  model: qwen-long  #??????  ????
+  purpose: file-extract   #
